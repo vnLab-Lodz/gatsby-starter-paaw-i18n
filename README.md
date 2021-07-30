@@ -4,10 +4,10 @@
   </a>
 </p>
 <h1 align="center">
-  Publication-as-a-Website Basic Starter
+  Publication-as-a-Website i18n Starter
 </h1>
 
-Create your next online publication with this PaaW boilerplate. It ships with a Gatsby configuration that supports single language publications.
+Create your next online publication with this PaaW boilerplate. It ships with a Gatsby configuration that supports multi language publications.
 
 _If you're looking for a more complex publication take a look at the [collection of vnLab starters](https://github.com/vnLab-Lodz/vnLab-templates)._
 
