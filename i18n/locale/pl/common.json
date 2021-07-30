@@ -1,0 +1,5 @@
+{
+  "title": "Podstawowy Starter Publication-as-a-Website",
+  "go-to": "Nawiguj do {{number}} strony",
+  "go-back": "Wróć do {{page}}"
+}

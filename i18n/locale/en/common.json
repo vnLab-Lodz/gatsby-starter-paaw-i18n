@@ -1,0 +1,5 @@
+{
+  "title": "Basic Publication-as-a-Website Starter",
+  "go-to": "Go to page {{number}}",
+  "go-back": "Go back to the {{page}}"
+}
