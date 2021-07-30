@@ -1,6 +1,7 @@
 import { GatsbyConfig } from "gatsby"
 
 export default {
+  pathPrefix: `/gatsby-starter-paaw-i18n`,
   siteMetadata: {
     title: `Publication-as-a-Website i18n Starter`,
     description: `Kick off your next PaaW project with this basic starter.`,
