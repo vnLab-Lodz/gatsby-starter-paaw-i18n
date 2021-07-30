@@ -2,7 +2,7 @@ import { GatsbyConfig } from "gatsby"
 
 export default {
   siteMetadata: {
-    title: `Basic Publication-as-a-Website Starter`,
+    title: `Publication-as-a-Website i18n Starter`,
     description: `Kick off your next PaaW project with this basic starter.`,
     author: `@vnLab1`,
     siteUrl: `http://vnlab.filmschool.lodz.pl/`,

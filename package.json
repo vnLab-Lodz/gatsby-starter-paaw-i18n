@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-paaw-basic",
+  "name": "gatsby-starter-paaw-i18n",
   "private": true,
-  "description": "A simple starter for PaaW projects.",
+  "description": "Starter for multilingual PaaW projects.",
   "version": "0.1.0",
   "author": "Piotr Karczewski <p.karczewsk@gmail.com>",
   "dependencies": {
