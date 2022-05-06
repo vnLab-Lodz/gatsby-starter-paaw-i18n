@@ -1,4 +1,4 @@
-import { CreatePagesArgs } from "gatsby"
+import { CreatePagesArgs, CreateSchemaCustomizationArgs } from "gatsby"
 import { delocalizeSlug, localizeSlug } from "../src/util"
 
 const path = require(`path`)
@@ -51,9 +51,24 @@ export const createPages = async ({
     createPage({
       path: slug.replace("index", ""),
       component: path.resolve("./src/templates/Section.tsx"),
-      context: {
-        slugs: localizeSlug(slug),
-      },
+      context: { slugs: localizeSlug(slug) },
     })
   })
+}
+
+// Workaround for missing sitePage.context in gatsby v4
+export const createSchemaCustomization = ({
+  actions,
+}: CreateSchemaCustomizationArgs) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type SitePage implements Node {
+      context: SitePageContext
+    }
+    type SitePageContext {
+        slugs: [String]
+        locale: String
+    }
+  `)
 }
